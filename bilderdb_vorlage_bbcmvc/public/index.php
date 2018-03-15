@@ -10,7 +10,7 @@
  */
 
   // fix schf: approot für url
-  $GLOBALS['appurl'] = '/Strawberries/public';
+  $GLOBALS['appurl'] = '/Strawberries/bilderdb_vorlage_bbcmvc/public';
   $GLOBALS['numAppurlFragments'] = 3;
 
   require_once '../lib/Dispatcher.php';
