@@ -15,8 +15,29 @@ require_once '../repository/LoginRepository.php';
       $view = new View('login_index');
       $view->title = 'Bilder-DB';
       $view->heading = 'Login';
+      $message = "";
+
+      if(isset($_POST['user'])) {
+        $user = $_POST['user'];
+
+        if(isset($_POST['pw'])) {
+            $pw = $_POST['pw'];
+
+            $userid = $loginRepository->login($user, $pw);
+            if(isset($userid)) {
+                $message = $message + $userid;
+            }
+        }
+        else {
+            $message =  $message + '<br>';
+        }
+       }
+
       $view->display();
     }
+
+
+
     /**
      * Zeigt das Registrations-Formular an
 	 * Dispatcher: /login/registration

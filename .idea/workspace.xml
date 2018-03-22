@@ -2,48 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e31b108-fd0f-4cc9-9ada-de2dfcecf878" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Strawberries.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/config.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/controller/DefaultController.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/controller/LoginController.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/schema.sql" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/index.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/ConnectionHandler.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/Dispatcher.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/Repository.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/View.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/formbuilder/Builder.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/formbuilder/ButtonBuilder.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/formbuilder/Form.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/formbuilder/FormBuilder.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/formbuilder/InputBuilder.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/formbuilder/SelectBuilder.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/formbuilder/TextareaBuilder.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/images/delete.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/images/kontakte-bottom.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/images/kontakte-top.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/images/link_a.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/images/link_h.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/images/link_n.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/js/html5shiv.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/js/jscript.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/js/respond.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/repository/LoginRepository.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/view/default_index.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/view/footer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/view/header.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/view/login_index.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/view/login_registration.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/config.php" afterPath="$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/config.php" />
+      <change beforePath="$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/controller/LoginController.php" afterPath="$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/controller/LoginController.php" />
+      <change beforePath="$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/lib/ConnectionHandler.php" afterPath="$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/lib/ConnectionHandler.php" />
+      <change beforePath="$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/repository/LoginRepository.php" afterPath="$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/repository/LoginRepository.php" />
+      <change beforePath="$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/view/login_index.php" afterPath="$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/view/login_index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,11 +18,108 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/lib/View.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/controller/LoginController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/repository/LoginRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <marker date="1521704160723" expanded="true" signature="243:294" ph="SELECT * FRO... $" />
+                <marker date="1521704160723" expanded="true" signature="243:311" ph="SELECT * FRO... $" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionHandler.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/lib/ConnectionHandler.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Repository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/lib/Repository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="78" column="31" lean-forward="false" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+              <folding>
+                <marker date="1521703963316" expanded="true" signature="3748:3805" ph="SELECT * FRO... $" />
+                <marker date="1521703963316" expanded="true" signature="4932:4946" ph="SELECT * FRO... $" />
+                <marker date="1521703963316" expanded="true" signature="5688:5743" ph="DELETE FROM $... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login_index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/view/login_index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/view/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -84,6 +145,12 @@
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/Strawberries/public/index.php" />
         <option value="$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/public/index.php" />
+        <option value="$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/controller/LoginController.php" />
+        <option value="$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/view/login_index.php" />
+        <option value="$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/config.php" />
+        <option value="$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/lib/Repository.php" />
+        <option value="$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/repository/LoginRepository.php" />
+        <option value="$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/lib/ConnectionHandler.php" />
       </list>
     </option>
   </component>
@@ -94,8 +161,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="950" />
   </component>
@@ -114,7 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,7 +198,31 @@
               <item name="Strawberries" type="b2602c69:ProjectViewProjectNode" />
               <item name="Strawberries" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="bilderdb_vorlage_bbcmvc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Strawberries" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Strawberries" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bilderdb_vorlage_bbcmvc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="data" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Strawberries" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Strawberries" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bilderdb_vorlage_bbcmvc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Strawberries" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Strawberries" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bilderdb_vorlage_bbcmvc" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Strawberries" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Strawberries" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bilderdb_vorlage_bbcmvc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="repository" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Strawberries" type="b2602c69:ProjectViewProjectNode" />
@@ -143,7 +234,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -163,6 +254,14 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="ConnectionHandler.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Strawberries/bilderdb_vorlage_bbcmvc/lib/ConnectionHandler.php" />
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.ConnectionHandler.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -177,28 +276,29 @@
       <option name="presentableId" value="Default" />
       <updated>1520497114586</updated>
       <workItem from="1520497116852" duration="758000" />
-      <workItem from="1521097435286" duration="1751000" />
+      <workItem from="1521097435286" duration="4640000" />
+      <workItem from="1521702301425" duration="1932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2509000" />
+    <option name="totallyTimeSpent" value="7330000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="959" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="950" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12916666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26586434" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3992629" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -215,99 +315,21 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/default_index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/default_index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ConnectionHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/schema.sql">
+    <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Repository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="133" column="39" lean-forward="false" selection-start-line="133" selection-start-column="39" selection-end-line="133" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/DefaultController.php">
+    <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/lib/View.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -315,99 +337,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/LoginController.php">
+    <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="51">
+          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Dispatcher.php">
+    <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/controller/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="510">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
+    <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/repository/LoginRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <marker date="1521704160723" expanded="true" signature="243:294" ph="SELECT * FRO... $" />
+            <marker date="1521704160723" expanded="true" signature="243:311" ph="SELECT * FRO... $" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/lib/Repository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" column="70" lean-forward="false" selection-start-line="89" selection-start-column="63" selection-end-line="89" selection-end-column="70" />
+          <folding>
+            <marker date="1521703963316" expanded="true" signature="3748:3805" ph="SELECT * FRO... $" />
+            <marker date="1521703963316" expanded="true" signature="4932:4946" ph="SELECT * FRO... $" />
+            <marker date="1521703963316" expanded="true" signature="5688:5743" ph="DELETE FROM $... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/view/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/view/login_index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/login_registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/login_index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/View.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php" />
+    <entry file="file://$PROJECT_DIR$/config.php" />
+    <entry file="file://$PROJECT_DIR$/index.php" />
+    <entry file="file://$PROJECT_DIR$/view/default_index.php" />
+    <entry file="file://$PROJECT_DIR$/view/footer.php" />
+    <entry file="file://$PROJECT_DIR$/view/header.php" />
+    <entry file="file://$PROJECT_DIR$/view/default_index.php" />
+    <entry file="file://$PROJECT_DIR$/view/footer.php" />
+    <entry file="file://$PROJECT_DIR$/lib/ConnectionHandler.php" />
+    <entry file="file://$PROJECT_DIR$/data/schema.sql" />
+    <entry file="file://$PROJECT_DIR$/lib/Repository.php" />
+    <entry file="file://$PROJECT_DIR$/controller/DefaultController.php" />
+    <entry file="file://$PROJECT_DIR$/controller/LoginController.php" />
+    <entry file="file://$PROJECT_DIR$/lib/Dispatcher.php" />
+    <entry file="file://$PROJECT_DIR$/config.php" />
+    <entry file="file://$PROJECT_DIR$/index.php" />
+    <entry file="file://$PROJECT_DIR$/view/login_registration.php" />
+    <entry file="file://$PROJECT_DIR$/view/login_index.php" />
+    <entry file="file://$PROJECT_DIR$/lib/View.php" />
+    <entry file="file://$PROJECT_DIR$/view/header.php" />
     <entry file="file://$USER_HOME$/Desktop/bilderdb_vorlage_bbcmvc/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Strawberries/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php" />
+    <entry file="file://$PROJECT_DIR$/Strawberries/config.php" />
     <entry file="file://$USER_HOME$/Desktop/bilderdb_vorlage_bbcmvc/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -415,7 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -423,27 +439,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Strawberries/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Strawberries/public/index.php" />
     <entry file="file://$USER_HOME$/Desktop/bilderdb_vorlage_bbcmvc/view/default_index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strawberries/repository/LoginRepository.php" />
+    <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Strawberries/repository/LoginRepository.php">
+    <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/view/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/lib/View.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -451,10 +475,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/public/index.php">
+    <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state relative-caret-position="17">
+          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/controller/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/lib/Repository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="78" column="31" lean-forward="false" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+          <folding>
+            <marker date="1521703963316" expanded="true" signature="3748:3805" ph="SELECT * FRO... $" />
+            <marker date="1521703963316" expanded="true" signature="4932:4946" ph="SELECT * FRO... $" />
+            <marker date="1521703963316" expanded="true" signature="5688:5743" ph="DELETE FROM $... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/repository/LoginRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1521704160723" expanded="true" signature="243:294" ph="SELECT * FRO... $" />
+            <marker date="1521704160723" expanded="true" signature="243:311" ph="SELECT * FRO... $" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/view/login_index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilderdb_vorlage_bbcmvc/lib/ConnectionHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
           <folding />
         </state>
       </provider>

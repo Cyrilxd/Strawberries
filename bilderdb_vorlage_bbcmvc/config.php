@@ -20,7 +20,7 @@
     // Datebankkonfiguration
     'database' => array(
       'host' => 'localhost',
-      'username' => 'root',
+      'username' => 'dbuser',
       'password' => 'gibbiX12345',
       'database' => 'bilderdb',
     ),

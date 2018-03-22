@@ -54,8 +54,9 @@ class ConnectionHandler
             $password = $config['database']['password'];
             $database = $config['database']['database'];
 
+
             // Verbindung initialisieren
-            self::$connection = new MySQLi($host, $username, $password, $database);
+            self::$connection = new MySQLi("localhost", "dbuser", "gibbiX12345", "bilderdb");
             if (self::$connection->connect_error) {
                 $error = self::$connection->connect_error;
                 throw new Exception("Verbindungsfehler: $error");
