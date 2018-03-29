@@ -87,4 +87,5 @@ class View
         require './../view/footer.php';
     }
 }
+
 ?>

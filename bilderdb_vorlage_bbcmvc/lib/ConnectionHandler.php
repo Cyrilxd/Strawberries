@@ -69,4 +69,5 @@ class ConnectionHandler
         return self::$connection;
     }
 }
+
 ?>

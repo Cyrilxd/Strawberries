@@ -9,14 +9,16 @@
  * auf eine bestehende Datei zeigen hierhin umgeleitet.
  */
 
-  // fix schf: approot für url
-  $GLOBALS['appurl'] = '/Strawberries/bilderdb_vorlage_bbcmvc/public';
-  $GLOBALS['numAppurlFragments'] = 3;
+session_start();
 
-  require_once '../lib/Dispatcher.php';
-  require_once '../lib/formbuilder/FormBuilder.php';
-  require_once '../lib/View.php';
+// fix schf: approot für url
+$GLOBALS['appurl'] = '/Strawberries/bilderdb_vorlage_bbcmvc/public';
+$GLOBALS['numAppurlFragments'] = 3;
 
-  $dispatcher = new Dispatcher();
-  $dispatcher->dispatch();
+require_once '../lib/Dispatcher.php';
+require_once '../lib/formbuilder/FormBuilder.php';
+require_once '../lib/View.php';
+
+$dispatcher = new Dispatcher();
+$dispatcher->dispatch();
 ?>
