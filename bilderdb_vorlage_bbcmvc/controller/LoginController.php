@@ -23,7 +23,6 @@ class LoginController
                     $user = $loginRepository->login($user, $pw);
 
                     if (isset($user->id)) {
-                        session_start();
                         $_SESSION['uid'] = $user->id;
                         header("Location: /Strawberries/bilderdb_vorlage_bbcmvc");
                     }

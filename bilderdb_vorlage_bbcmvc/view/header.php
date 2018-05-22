@@ -28,6 +28,7 @@
             <ul class="nav navbar-nav">
                 <?php
                     if(isset($_SESSION['uid'])) { ?>
+                    <li><a href="<?= $GLOBALS['appurl'] ?>/gallery">Galerie</a></li>
                     <li><a>Hallo! <?= $_SESSION["uid"] ?></a></li>
                     <li><a href="<?= $GLOBALS['appurl'] ?>/login/logout">Logout</a></li>
                 <?php } else { ?>
