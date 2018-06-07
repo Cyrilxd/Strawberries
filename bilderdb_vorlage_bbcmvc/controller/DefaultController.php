@@ -1,5 +1,5 @@
 <?php
-
+require_once '../repository/GalleryRepository.php';
 /**
  * Der Controller ist der Ort an dem es für jede Seite, welche der Benutzer
  * anfordern kann eine Methode gibt, welche die dazugehörende Businesslogik
@@ -33,10 +33,25 @@ class DefaultController
      */
     public function index()
     {
-        // In diesem Fall möchten wir dem Benutzer die View mit dem Namen
-        //   "default_index" rendern. Wie das genau funktioniert, ist in der
-        //   View Klasse beschrieben.
+        $conn = new GalleryRepository();
         $view = new View('default_index');
+        $view->title = 'Bilderdatenbank';
+        $view->galleries = $conn->getPublicGalleries();
+        $view->heading = 'Bilderdatenbank';
+        $view->display();
+    }
+
+    public function view() {
+        $_SESSION['picid'] = "";
+        if(!isset($_GET['id'])) {
+            header("Location: /Strawberries/bilderdb_vorlage_bbcmvc/public/");
+        }
+
+        $_SESSION['gid'] = $_GET['id'];
+
+        $db =  new GalleryRepository();
+        $view = new View('default_gallery');
+        $view->pictures=$db->getPublicPictures();
         $view->title = 'Bilderdatenbank';
         $view->heading = 'Bilderdatenbank';
         $view->display();

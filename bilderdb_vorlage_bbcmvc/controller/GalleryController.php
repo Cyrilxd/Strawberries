@@ -44,6 +44,7 @@ class GalleryController
                 }
 
                 $db->createGallery($name, $description, $public);
+                header("Location: /Strawberries/bilderdb_vorlage_bbcmvc/public/gallery");
             }
             else {
                 $message = $message."Eine Gallerie benötigt mindestens einen Namen";
@@ -70,6 +71,7 @@ class GalleryController
             if ($_FILES['pic']['size'] == 0) {
                 header("Location: /Strawberries/bilderdb_vorlage_bbcmvc/public/gallery/addGallery");
             }
+            //if($_FILES['pic']['size'] < )
             $imgHash = $this->randomName();
             $thumbHash = $this->randomName();
             var_dump($_FILES);
@@ -92,6 +94,7 @@ class GalleryController
     }
 
     public function view(){
+        $_SESSION['picid'] = "";
         if(is_null($_SESSION['uid'])) {
             header("Location: /Strawberries/bilderdb_vorlage_bbcmvc/public/");
         }
@@ -123,6 +126,120 @@ class GalleryController
         $view = new View('gallery_view_single');
 
         $view->picture=$db->pictureById($_GET['id']);
+        $view->title = 'Bilderdatenbank';
+        $view->heading = 'Bilderdatenbank';
+        $view->display();
+    }
+
+    public function deleteGallery(){
+        if(is_null($_SESSION['uid'])) {
+            header("Location: /Strawberries/bilderdb_vorlage_bbcmvc/public/");
+        }
+        if(!isset($_GET['id'])) {
+            header("Location: /Strawberries/bilderdb_vorlage_bbcmvc/public/");
+        }
+
+        $db = new GalleryRepository();
+
+        $id = "";
+        if(isset($_GET['id'])) {
+            $id = $_GET['id'];
+        }
+        else {
+            header("Location: /Strawberries/bilderdb_vorlage_bbcmvc/public/");
+        }
+
+        $db->deleteGallery($id);
+        header("Location: {$_SERVER['HTTP_REFERER']}");
+
+    }
+
+    public function deletePicture(){
+        if(is_null($_SESSION['uid'])) {
+            header("Location: /Strawberries/bilderdb_vorlage_bbcmvc/public/");
+        }
+        if(!isset($_GET['id'])) {
+            header("Location: /Strawberries/bilderdb_vorlage_bbcmvc/public/");
+        }
+
+        $db = new GalleryRepository();
+
+        $id = "";
+        if(isset($_GET['id'])) {
+            $id = $_GET['id'];
+        }
+        else {
+            header("Location: /Strawberries/bilderdb_vorlage_bbcmvc/public/");
+        }
+
+        $db->deleteImage($id);
+        header("Location: {$_SERVER['HTTP_REFERER']}");
+
+    }
+
+    public function updatePicture(){
+        if(is_null($_SESSION['uid'])) {
+            header("Location: /Strawberries/bilderdb_vorlage_bbcmvc/public/");
+        }
+
+        $db = new GalleryRepository();
+
+        if($_SERVER['REQUEST_METHOD'] === 'POST') {
+            if($_POST['name'] == "") {
+                header("Location: /Strawberries/bilderdb_vorlage_bbcmvc/public/gallery/updatePicture?id=".$_SESSION['picid']);
+            }
+            if($_SESSION['picid'] == "" || $_SESSION['picid'] == null){
+                header("Location: /Strawberries/bilderdb_vorlage_bbcmvc/public/");
+            }
+
+            $db->updateImage($_SESSION['picid'], $_POST['name'], $_POST['description']);
+
+            header("Location: /Strawberries/bilderdb_vorlage_bbcmvc/public/gallery/view?id=".$_SESSION['gid']);
+        }
+
+        if(!isset($_GET['id']) && $_SESSION['picid'] == "") {
+            header("Location: /Strawberries/bilderdb_vorlage_bbcmvc/public/");
+        }
+
+        $_SESSION['picid'] = $_GET['id'];
+
+        $view = new View('gallery_image_update');
+
+        $view->picture=$db->pictureById($_GET['id']);
+        $view->title = 'Bilderdatenbank';
+        $view->heading = 'Bilderdatenbank';
+        $view->display();
+    }
+
+    public function updateGallery(){
+        if(is_null($_SESSION['uid'])) {
+            header("Location: /Strawberries/bilderdb_vorlage_bbcmvc/public/");
+        }
+
+        $db = new GalleryRepository();
+
+        if($_SERVER['REQUEST_METHOD'] === 'POST') {
+            if($_POST['name'] == "") {
+                header("Location: /Strawberries/bilderdb_vorlage_bbcmvc/public/gallery/updatePicture?id=".$_SESSION['galid']);
+            }
+            if($_SESSION['galid'] == "" || $_SESSION['galid'] == null){
+                header("Location: /Strawberries/bilderdb_vorlage_bbcmvc/public/");
+            }
+
+            $db->updateGallery($_SESSION['galid'], $_POST['name'], $_POST['description'], $_POST['public']);
+
+            header("Location: /Strawberries/bilderdb_vorlage_bbcmvc/public/gallery");
+        }
+
+        if(!isset($_GET['id']) && $_SESSION['galid'] == "") {
+            header("Location: /Strawberries/bilderdb_vorlage_bbcmvc/public/");
+        }
+
+        $_SESSION['galid'] = $_GET['id'];
+
+        $view = new View('gallery_update');
+
+        $view->gallery=$db->galleryById($_GET['id']);
         $view->title = 'Bilderdatenbank';
         $view->heading = 'Bilderdatenbank';
         $view->display();

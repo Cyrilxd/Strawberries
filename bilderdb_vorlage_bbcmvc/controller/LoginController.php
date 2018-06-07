@@ -82,14 +82,22 @@ class LoginController
                     $message = $message . "<br>Geben Sie bitte eine gültige Email Adresse ein";
                 }
             }
+
             if (isset($_POST['pw'])) {
                 if ($_POST['pw'] != "") {
                     $pw = $_POST['pw'];
+                    $uppercase = preg_match('@[A-Z]@', $pw);
+                    $lowercase = preg_match('@[a-z]@', $pw);
+                    $number    = preg_match('@[0-9]@', $pw);
+                    if(!$uppercase || !$lowercase || !$number || strlen($pw) < 8) {
+                        $message = $message . '<br>Das Passwort muss mindestens 8 Zeichen lang sein, ein Gross- und Kleinbuchstabe und eine Zahl enthalten';
+                    }
                 } else {
                     $ok = false;
                     $message = $message . "<br>Geben Sie bitte ein Passwort ein";
                 }
             }
+
             if (isset($_POST['pw2'])) {
                 if ($_POST['pw2'] != "") {
                     $pw2 = $_POST['pw2'];
@@ -132,6 +140,8 @@ class LoginController
 
         $view->display();
     }
+
+
 }
 
 ?>
